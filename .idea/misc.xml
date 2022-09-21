@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android/Applications/AndroidVoiceAssistant/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1265" />
         <entry key="..\:/android/Applications/AndroidVoiceAssistant/app/src/main/res/layout/activity_main.xml" value="0.24427083333333333" />
         <entry key="..\:/android/Applications/AndroidVoiceAssistant/app/src/main/res/layout/msg_left_item.xml" value="0.25885416666666666" />
         <entry key="..\:/android/Applications/AndroidVoiceAssistant/app/src/main/res/layout/msg_right_item.xml" value="0.25885416666666666" />
+        <entry key="..\:/android/Applications/AndroidVoiceAssistant/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1265" />
         <entry key="..\:/android/Applications/AndroidVoiceAssistant/core/src/main/res/layout/common_mini.xml" value="0.115625" />
       </map>
     </option>

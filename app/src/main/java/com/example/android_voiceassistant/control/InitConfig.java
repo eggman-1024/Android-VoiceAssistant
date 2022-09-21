@@ -2,7 +2,7 @@ package com.example.android_voiceassistant.control;
 
 import com.baidu.tts.client.SpeechSynthesizerListener;
 import com.baidu.tts.client.TtsMode;
-import com.baidu.tts.sample.util.IOfflineResourceConst;
+import com.example.android_voiceassistant.util.IOfflineResourceConst;
 
 import java.util.Map;
 

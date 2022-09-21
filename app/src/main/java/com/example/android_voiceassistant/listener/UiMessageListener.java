@@ -35,21 +35,23 @@ public class UiMessageListener extends MessageListener {
     public void onSynthesizeDataArrived(String utteranceId, byte[] data, int progress) {
         // sendMessage("onSynthesizeDataArrived");
         super.onSynthesizeDataArrived(utteranceId, data, progress);
-        mainHandler.sendMessage(mainHandler.obtainMessage(UI_CHANGE_SYNTHES_TEXT_SELECTION, progress, 0));
+        ////mainHandler.sendMessage(mainHandler.obtainMessage(UI_CHANGE_SYNTHES_TEXT_SELECTION, progress, 0));
     }
 
     /**
      * 播放进度回调接口，分多次回调
      * 注意：progress表示进度，与播放到哪个字无关
      *
-     * @param utteranceId
-     * @param progress    文本按字符划分的进度，比如:你好啊 进度是0-3
+     //* @param utteranceId
+     //* @param progress    文本按字符划分的进度，比如:你好啊 进度是0-3
      */
+
     @Override
     public void onSpeechProgressChanged(String utteranceId, int progress) {
         // sendMessage("onSpeechProgressChanged");
-        mainHandler.sendMessage(mainHandler.obtainMessage(UI_CHANGE_INPUT_TEXT_SELECTION, progress, 0));
+        ////mainHandler.sendMessage(mainHandler.obtainMessage(UI_CHANGE_INPUT_TEXT_SELECTION, progress, 0));
     }
+
 
     protected void sendMessage(String message) {
         sendMessage(message, false);

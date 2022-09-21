@@ -11,7 +11,7 @@ import androidx.core.content.ContextCompat;
 import com.baidu.tts.client.SpeechSynthesizer;
 import com.baidu.tts.client.SynthesizerTool;
 import com.baidu.tts.client.TtsMode;
-import com.baidu.tts.sample.control.InitConfig;
+import com.example.android_voiceassistant.control.InitConfig;
 
 import org.json.JSONObject;
 
